@@ -1,4 +1,6 @@
 <?php 
+// This is the template for the event archive page. It will display all the events that are upcoming.
+
 
 get_header(); ?>
 

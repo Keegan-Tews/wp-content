@@ -1,20 +1,21 @@
-<!-- This is the main template file. It is required in WordPress themes and contains the content of the page. -->
-<!-- The get_theme_file_uri() function returns the URL of the current theme's directory. -->
-<!-- The wp_head() function is a hook that allows us to add scripts and styles to our website. -->
-<!-- The wp_enqueue_scripts is a hook that allows us to add scripts and styles to our website. -->
-<!-- The add_theme_support() function allows us to add support for various features to our theme. -->
-<!-- The after_setup_theme is a hook that allows us to add support for various features to our theme. -->
-<!-- The add_action() function is used to add a new action to the list of registered actions. -->
-<!-- The wp_get_post_parent_id() function returns the ID of the parent post. -->
-<!-- The get_the_ID() function returns the ID of the current post. -->
-<!-- The get_permalink() function returns the URL of the current post. -->
-<!-- The get_the_title() function returns the title of the current post. -->
-<!-- The get_pages() function returns an array of pages. -->
-<!-- The wp_list_pages() function displays a list of pages. -->
-<!-- The get_the_title() function returns the title of the current post. -->
+<?php 
+// This is the main template file. It is required in WordPress themes and contains the content of the page. 
+// The get_theme_file_uri() function returns the URL of the current theme's directory. 
+// The wp_head() function is a hook that allows us to add scripts and styles to our website. 
+// The wp_enqueue_scripts is a hook that allows us to add scripts and styles to our website. 
+// The add_theme_support() function allows us to add support for various features to our theme. 
+// The after_setup_theme is a hook that allows us to add support for various features to our theme. 
+// The add_action() function is used to add a new action to the list of registered actions. 
+// The wp_get_post_parent_id() function returns the ID of the parent post. 
+// The get_the_ID() function returns the ID of the current post. 
+// The get_permalink() function returns the URL of the current post. 
+// The get_the_title() function returns the title of the current post. 
+// The get_pages() function returns an array of pages. 
+// The wp_list_pages() function displays a list of pages. 
+// The get_the_title() function returns the title of the current post. 
 
 
-<?php get_header(); 
+get_header(); 
 ?>
 
 <div class="page-banner">

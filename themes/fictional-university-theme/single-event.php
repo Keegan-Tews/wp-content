@@ -1,4 +1,7 @@
 <?php
+// This is the template for single event post type. It will display the content of the event post type. 
+
+
 get_header();
 
     while (have_posts()) {

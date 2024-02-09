@@ -1,7 +1,7 @@
-<!-- This is the template for displaying a single post -->
-
-
 <?php
+//This is the template for displaying a single post. 
+
+
 get_header();
 
     while (have_posts()) {

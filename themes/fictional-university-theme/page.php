@@ -1,16 +1,30 @@
-<!-- This is the default page template. It is used to display a page when nothing more specific matches a query. -->
 
-
-
-<!-- This while loop will run as long as there are posts to display. -->
-<!-- The have_posts() function checks if there are any posts to display. -->
-<!-- The the_post() function sets up the current post. -->
-<!-- The the_title() function displays the title of the post. -->
-<!-- The the_content() function displays the content of the post. -->
-<!-- The get_header() function includes the header.php file in the current file. -->
-<!-- The get_footer() function includes the footer.php file in the current file. -->
-<!-- $theParent = wp_get_post_parent_id(get_the_ID()); -->
 <?php
+// This is the default page template. It is used to display a page when nothing more specific matches a query. 
+// This while loop will run as long as there are posts to display. 
+// The have_posts() function checks if there are any posts to display. 
+// The the_post() function sets up the current post. 
+// The the_title() function displays the title of the post. 
+// The the_content() function displays the content of the post. 
+// The get_header() function includes the header.php file in the current file. 
+// The get_footer() function includes the footer.php file in the current file. 
+// $theParent = wp_get_post_parent_id(get_the_ID()); 
+// The wp_get_post_parent_id() function returns the ID of the parent post.
+// The get_the_ID() function returns the ID of the current post.
+// The get_permalink() function returns the URL of the current post.
+// The get_the_title() function returns the title of the current post.
+// The get_pages() function returns an array of pages.
+// The wp_list_pages() function displays a list of pages.
+// The get_theme_file_uri() function returns the URL of the current theme's directory.
+// The wp_head() function is a hook that allows us to add scripts and styles to our website.
+// The wp_enqueue_scripts is a hook that allows us to add scripts and styles to our website.
+// The add_theme_support() function allows us to add support for various features to our theme.
+// The after_setup_theme is a hook that allows us to add support for various features to our theme.
+// The add_action() function is used to add a new action to the list of registered actions.
+// The wp_get_post_parent_id() function returns the ID of the parent post.
+
+
+
     get_header();
     while (have_posts()) {
         the_post(); ?>
